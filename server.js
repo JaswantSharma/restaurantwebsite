@@ -39,10 +39,10 @@ PHONE: pnum
 };
 
 const jsonData=JSON.stringify(data);
-const url="https://us6.api.mailchimp.com/3.0/lists/10dd9f4d46";
+const url="https://us20.api.mailchimp.com/3.0/lists/10dd9f4d46";
 const options={
 method:"POST",
-auth:"Jaswant:5d35013c1b18dc356910ac231a675974-us20",
+auth:"Yummy:a4afd8bf6c6cbe438d6d775b272d3b88-us20",
 html:"<h1> HEY PLEASE CONFIRM THE MAIl ${name}</h1>"
 };
 
