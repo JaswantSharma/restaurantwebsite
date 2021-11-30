@@ -39,10 +39,10 @@ PHONE: pnum
 };
 
 const jsonData=JSON.stringify(data);
-const url="https://us6.api.mailchimp.com/3.0/lists/3df56403e5";
+const url="https://us6.api.mailchimp.com/3.0/lists/10dd9f4d46";
 const options={
 method:"POST",
-auth:"nidhi:fd8e4e3b2cd0081ec28730f09d15492b-us6",
+auth:"Jaswant:5d35013c1b18dc356910ac231a675974-us20",
 html:"<h1> HEY PLEASE CONFIRM THE MAIl ${name}</h1>"
 };
 
@@ -52,7 +52,7 @@ if(response.statusCode===200){
 res.send("<cenetr><h1>Please check your email</h1></cenetr>");
 }
 else {
-res.send("<center><h1>There was a bug try again or contact the developer</h1></center>")
+res.send("<cenetr><h1>There was a bug try again or contact the developer</h1></cenetr>")
 }
 response.on("data",function(data){
 JSON.parse(data)
